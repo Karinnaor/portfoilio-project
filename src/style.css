@@ -35,7 +35,7 @@ h6 {
 
 .hero h2 {
   font-size: 24px;
-  font-family: var(--default-font-family);
+  font-family: var(--headings-font-family);
   font-weight: normal;
   line-height: 2;
 }
@@ -44,6 +44,7 @@ h1 {
   color: black;
   font-family: "Playfair Display", serif;
   font-weight: normal;
+  font-size: 96px;
 }
 
 p {
