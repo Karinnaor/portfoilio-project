@@ -27,7 +27,7 @@ h6 {
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   margin: 0;
   color: #272142;
@@ -41,15 +41,17 @@ h6 {
 }
 
 h1 {
-  color: black;
-  font-family: "Playfair Display", serif;
-  font-weight: normal;
   font-size: 96px;
 }
 
+h2 {
+  font-size: 64px;
+}
+
 p {
-  font-family: "Poppins", sans-serif;
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .btn-branding {
@@ -59,4 +61,33 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 52px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
