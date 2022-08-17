@@ -29,24 +29,32 @@
     />
 
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Karin Naor</title>
+    <meta
+      name="description"
+      content="Karin is a front-end engineer based in Tel-Aviv, Israel. She is an experienced content writer, and loves to combine the two together."
+    />
+    <title>Front-end developer - Karin Naor</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="/images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Karin Naor logo"
+          />
           <img
             src="/images/logo-small.jpg"
             class="logo d-block d-md-none"
-            alt=""
+            alt="Karin Naor logo"
           />
         </a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Karin">About</a></li>
+          <li><a href="/work.html" title="Karin's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Karin">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -54,7 +62,14 @@
       <p>Hi, I'm</p>
       <h1>Karin Naor</h1>
       <h2 class="mb-5">Front-end developer based in Tel Aviv, Israel</h2>
-      <div><a href="#" class="btn btn-branding">Contact me</a></div>
+      <div>
+        <a
+          href="/contact.html"
+          title="contact Karin Naor"
+          class="btn btn-branding"
+          >Contact me</a
+        >
+      </div>
     </div>
     <p class="text-center m-5">Here are some of my favorite projects:</p>
     <div class="container">
@@ -63,7 +78,7 @@
           <img
             src="/images/yogurt.png"
             class="img-fluid"
-            alt="screen-shot of yougurt-app"
+            alt="Yougurt app preview"
           />
         </div>
         <div class="col">
@@ -77,7 +92,13 @@
               yogurt text a lot of yogurt text a lot of yogurt text a lot of
               yogurt text a lot of yogurt text a lot of yogurt text
             </p>
-            <a href="#" class="btn btn-branding-outline"> Learn more</a>
+            <a
+              href="/work.html"
+              title="Karin's yogurt project"
+              class="btn btn-branding-outline"
+            >
+              Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -100,6 +121,7 @@
             </p>
             <a
               href="https://timely-peony-95df13.netlify.app/"
+              title="Karin's awesome weather app"
               target="_blank"
               class="btn btn-branding-outline"
             >
@@ -111,7 +133,7 @@
           <img
             src="/images/weather.png"
             class="img-fluid"
-            alt="screen-shot of weather-app"
+            alt="Weather app preview"
           />
         </div>
       </div>
@@ -120,7 +142,7 @@
           <img
             src="/images/dictionary.png"
             class="img-fluid"
-            alt="screen-shot of dictionary-app"
+            alt="Dictionary app preview"
           />
         </div>
         <div class="col">
@@ -139,7 +161,13 @@
               is here to let you know what is a dictionary app and how to use it
               exactly. I'm sure you'll read it all the way through.
             </p>
-            <a href="#" class="btn btn-branding-outline"> Learn more</a>
+            <a
+              href="/work.html"
+              title="Karin's dictionary app"
+              class="btn btn-branding-outline"
+            >
+              Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -152,25 +180,55 @@
             <p class="text-muted">Let's work together!</p>
           </div>
           <div>
-            <a href="/contact.html" class="btn btn-branding mt-3">Contact Me</a>
+            <a
+              href="/contact.html"
+              title="Contact Karin"
+              class="btn btn-branding mt-3"
+              >Contact Me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:karinnaor@gmail.com" class="email-link"
+          <a
+            href="mailto:karinnaor@gmail.com"
+            class="email-link"
+            title="Email Karin"
             >karinnaor@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/karinnaor" target="_blank">
+          <a
+            href="https://www.instagram.com/karinnaor"
+            target="_blank"
+            title="Instagram profile"
+          >
             <i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://www.github.com/karinnaor" target="_blank">
+          <a
+            href="https://www.github.com/karinnaor"
+            target="_blank"
+            title="Github profile"
+          >
             <i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://www.facebook.com/karinnaor" target="_blank">
+          <a
+            href="https://www.facebook.com/karinnaor"
+            target="_blank"
+            title="Facebook profile"
+          >
             <i class="fa-brands fa-facebook"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          ✌️ This project was coded by Karin Naor, and is
+          <a
+            href="https://github.com/karinnaor/portfoilio-project"
+            target="_blank"
+            title="Karin's code on github"
+          >
+            open sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
