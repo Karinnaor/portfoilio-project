@@ -3,6 +3,7 @@
   --headings-font-family: "Aboreto", cursive;
   --default-font-family: "Poppins", sans-serif;
   --secondery-color: #f9f7d5;
+  --logo-color: #bfb944;
 }
 
 body {
@@ -75,8 +76,20 @@ p {
   padding: 15px 30px;
 }
 
+.content {
+  margin: 0 px;
+}
+
+.about-me {
+  margin: 0;
+}
+
+.about-sections {
+  border: 1px solid var(--logo-color);
+  border-radius: 4px;
+}
 .content-container {
-  padding: 30px 20px;
+  padding: 30px 0px;
 }
 
 .project-description {
@@ -86,6 +99,7 @@ p {
 .content h1 {
   font-size: 58px;
   line-height: 80px;
+  text-align: center;
 }
 .content h2 {
   font-size: 18px;
@@ -101,10 +115,6 @@ p {
 
 .content p {
   font-size: 14px;
-}
-
-.content {
-  margin: 30px;
 }
 
 .logo {
@@ -140,6 +150,11 @@ nav li.active a {
 
 .my-photo {
   border-radius: 10px;
+  padding: 0;
+}
+
+.about-button {
+  text-align: right;
 }
 
 footer {
