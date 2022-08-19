@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #6c63ff;
-  --headings-font-family: "Playfair Display", serif;
+  --branding-color: #cc5c29;
+  --headings-font-family: "Aboreto", cursive;
   --default-font-family: "Poppins", sans-serif;
-  --secondery-color: #f9f7fe;
+  --secondery-color: #f9f7d5;
 }
 
 body {
@@ -23,11 +23,11 @@ h6 {
 .hero {
   background: var(--secondery-color);
   text-align: center;
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .hero p {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   margin: 0;
   color: #272142;
@@ -76,7 +76,7 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 30px 20px;
 }
 
 .project-description {
@@ -84,7 +84,7 @@ p {
 }
 
 .content h1 {
-  font-size: 64px;
+  font-size: 58px;
   line-height: 80px;
 }
 .content h2 {
@@ -108,7 +108,7 @@ p {
 }
 
 .logo {
-  max-width: 150px 41px;
+  max-height: 41px;
 }
 
 nav {
@@ -124,6 +124,7 @@ nav li {
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
+  padding: 20px;
 }
 
 nav a {
@@ -132,6 +133,7 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
+nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
