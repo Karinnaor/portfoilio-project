@@ -239,3 +239,17 @@ footer .social-links a:hover {
     font-size: 14px;
   }
 }
+
+@media (max-width: 550px) {
+  .logo {
+    display: none;
+  }
+
+  nav li {
+    padding: 8px;
+  }
+
+  .hero h2 {
+    padding: 0px 80px;
+  }
+}
