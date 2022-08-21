@@ -52,7 +52,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 56px;
 }
 
 h4 {
@@ -102,12 +102,17 @@ p {
   background: var(--secondery-color);
 }
 
-.card h4 {
+.card-title {
   color: var(--branding-color);
   font-family: var(--default-font-family);
+  text-align: center;
 }
 .content-container {
   padding: 30px 0px;
+}
+
+.content-container h1 {
+  text-align: center;
 }
 
 .project-description {
@@ -119,6 +124,7 @@ p {
   line-height: 80px;
   text-align: center;
 }
+
 .content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
@@ -153,6 +159,7 @@ nav li {
   line-height: 42px;
   margin-left: 15px;
   padding: 20px;
+  font-size: 22px;
 }
 
 nav a {
@@ -252,4 +259,7 @@ footer .social-links a:hover {
   .hero h2 {
     padding: 0px 80px;
   }
+}
+
+@media (maw-width: 1400px) {
 }
